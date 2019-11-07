@@ -1,9 +1,16 @@
 import React from 'react';
 
 
-const TeamList = () => {
+const TeamList = props => {
   return (
-    <div>Test</div>
+    <div>
+      <ul>
+      {props.members.map(member => (
+        <li>{member.name}</li>
+      ))}
+
+      </ul>
+    </div>
   )
 
 }
