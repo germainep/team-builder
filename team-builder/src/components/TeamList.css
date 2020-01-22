@@ -1,0 +1,13 @@
+.container {
+  margin: 0 auto;
+  width: 75%;
+  padding: 20px;
+}
+.card {
+  width: 175px;
+  height: 150px;
+  border: 1px solid red;
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 5px 10px 15px rgba(3, 3, 3, 0.3);
+}
