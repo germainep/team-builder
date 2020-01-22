@@ -18,8 +18,8 @@ function App() {
   }
   return (
     <div className="App">
-      <TeamList members={members}/>
-      <MemberForm addNewMember={addNewMember}/>
+      <MemberForm addNewMember={addNewMember} />
+      <TeamList members={members} />
     </div>
   );
 }
